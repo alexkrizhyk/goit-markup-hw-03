@@ -1,0 +1,227 @@
+/* цвет текста #757575 */
+/* цвет заголовков #212121 */
+/* акцент #2196F3 */
+/* белый #FFFFFF */
+/* цвет фона hero-footer #2F303A */
+/* цвет фона кнопок портфолио #F5F4FA */
+/* цвет контактов footer #F5F4FA */
+
+
+:root{
+    --text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --white-text-color: #FFFFFF;
+    --footer-hero-bg-color:#2F303A;
+    --button-porfolio-color:#F5F4FA;
+    --footer-contact-color: rgba(255, 255, 255, 0.6);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.projects-link {
+    text-decoration: none;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif; 
+    color: var(--text-color);
+}
+
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1,192;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.logo-top {
+    color: var(--title-text-color);
+}
+
+.menu-link {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1,142;
+letter-spacing: 0.02em;
+color: var(--title-text-color);
+}
+
+.link {
+color: var(--text-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+    color: var(--accent-color);
+}
+
+.contact-tel:hover,
+.contact-tel:focus {
+    color: var(--accent-color);
+}
+
+.hero-name {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,363;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+}
+
+.hero {
+    text-align: center;
+    background: var(--footer-hero-bg-color);
+}
+
+.order {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,875;
+    letter-spacing: 0.06em;
+    color: var(--white-text-color);
+    background-color: var(--accent-color) 
+}
+
+.advantages-name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.advantages-name-about {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,714;
+    letter-spacing: 0.03em;
+}
+
+.what-we-do-name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,167;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.team-about {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,167;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.team-employee-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,188;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.team-employee-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,188;
+    letter-spacing: 0.03em;
+}
+
+.button-all,
+.button-web,
+.button-app,
+.button-design,
+.button-marketing {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,625;
+    letter-spacing: 0.03em;
+    border: 0ch;
+    color:var(--title-text-color);
+    background: var(--button-porfolio-color);
+    cursor: pointer;
+}
+
+.button-all:hover,
+.button-all:focus,
+.button-web:hover,
+.button-web:focus,
+.button-app:hover,
+.button-app:focus,
+.button-design:hover,
+.button-design:focus,
+.button-marketing:hover,
+.button-marketing:focus {
+    background-color:var(--accent-color);
+    color: var(--white-text-color);
+}
+
+.projects-list-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2,0;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.projects-list-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,875;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+.footer-contact-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,714;
+    letter-spacing: 0.03em;
+    color: var(--white-text-color);
+}
+
+.footer {
+    background: var(--footer-hero-bg-color);
+}
+
+.logo-down {
+    color: var(--white-text-color);
+}
