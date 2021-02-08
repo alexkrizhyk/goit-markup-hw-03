@@ -279,14 +279,16 @@ color: var(--text-color);
 /* === OUR TEAM === */
 
 .team {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background: #F5F4FA;
 }
 
 .team .container {
-    background: #F5F4FA;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 15px;
 }
 
 .team-list {
@@ -294,7 +296,6 @@ color: var(--text-color);
 }
 
 .team-about {
-    padding-top: 94px;
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -306,7 +307,8 @@ color: var(--text-color);
 
 .team-list-item {
     margin-right: 30px;
-    margin-bottom: 94px;
+    width: 270px;
+    height: 368px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -316,8 +318,13 @@ color: var(--text-color);
     margin-right: 0px;
 }
 
-.team-employee-name {
+.team-list-item-about {
     padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team-employee-name {
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,188;
@@ -327,8 +334,6 @@ color: var(--text-color);
 }
 
 .team-employee-position {
-    padding-top: 10px;
-    padding-bottom: 30px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1,188;
