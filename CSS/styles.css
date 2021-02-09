@@ -119,9 +119,7 @@ body {
 }
 
 .contact-up {
-    margin-left: auto;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    margin-left: auto;  
 }
 
 .contact-item {
@@ -130,6 +128,11 @@ body {
 
 .link {
 color: var(--text-color);
+}
+
+.contact-up-mail, .contact-up-tel {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .menu-link:hover,
@@ -141,13 +144,14 @@ color: var(--text-color);
     color: var(--accent-color);
 }
 
-.contact-mail:hover,
-.contact-mail:focus {
-    color: var(--accent-color);
-}
-
-.contact-tel:hover,
-.contact-tel:focus {
+.contact-up-mail:hover,
+.contact-up-mail:focus,
+.contact-footer-mail:hover,
+.contact-footer-mail:focus,
+.contact-up-tel:hover,
+.contact-up-tel:focus,
+.contact-footer-tel:hover,
+.contact-footer-tel:focus {
     color: var(--accent-color);
 }
 
@@ -221,9 +225,12 @@ color: var(--text-color);
     margin-right: 30px;
 }
 
-.advantages-name {
-    margin-bottom: 10px;
+.advantages-list-item {
     width: 270px;
+}
+
+.advantages-name {
+    margin-bottom: 10px;    
     font-weight: 700;
     font-size: 14px;
     line-height: 1.142;
@@ -405,11 +412,8 @@ color: var(--text-color);
     padding-bottom: 94px;
 }
 
-.projects-examples {
-    padding-top: 56px;
-}
-
 .projects-examples-list {
+    margin-top: 56px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -471,7 +475,7 @@ color: var(--text-color);
 }
 
 .footer-contact-address {
-    padding-top: 20px;
+    margin-top: 20px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -481,8 +485,7 @@ color: var(--text-color);
 }
 
 .footer-contact-list {
-    padding-top: 9px;
-
+    margin-top: 9px;
 }
 
 .logo-btm {
